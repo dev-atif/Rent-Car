@@ -11,8 +11,8 @@ const NavLinks = [
     Link: "/about",
   },
   {
-    name: "Car Listings",
-    Link: "#",
+    name: "driver",
+    Link: "/driver/3",
   },
   {
     name: "Contact",
