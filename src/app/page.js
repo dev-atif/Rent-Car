@@ -6,7 +6,10 @@ export default function Home() {
     <>
       <main>
         <div>
-          <SupportSection />
+          {/* <SupportSection /> */}
+          <div className="bg-red-600">
+            <h1 className="text-xl">Hellow</h1>
+          </div>
         </div>
       </main>
     </>
