@@ -1,6 +1,10 @@
 import CarsCards from "@/Components/Cards/CarsCards";
 import HeroSection from "@/Components/Home/HeroSection";
 import SupportSection from "@/Components/Home/SupportSection";
+import car1 from "../../public/car1.jpeg";
+import car2 from "../../public/car2.jpeg";
+import car3 from "../../public/car3.jpeg";
+import car4 from "../../public/car4.jpeg";
 const carData = [
   {
     title: "Mercedes-Benz AMG GT63 S E Performance 4-Door Coupe ",
