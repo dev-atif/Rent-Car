@@ -5,6 +5,7 @@ import car1 from "../../public/car1.jpeg";
 import car2 from "../../public/car2.jpeg";
 import car3 from "../../public/car3.jpeg";
 import car4 from "../../public/car4.jpeg";
+import Link from "next/link";
 const carData = [
   {
     title: "Mercedes-Benz AMG GT63 S E Performance 4-Door Coupe ",
@@ -69,7 +70,9 @@ export default function Home() {
         <div className="flex flex-wrap gap-10 my-10 justify-center px-5 md:px-0">
           {carData.map((car, idx) => (
             <div key={idx} className="md:w-[45%] xl:w-[26%] w-full">
-              <CarsCards key={car.title} item={car} />
+              <Link href={"/car/2"}>
+                <CarsCards key={car.title} item={car} />
+              </Link>
             </div>
           ))}
         </div>
