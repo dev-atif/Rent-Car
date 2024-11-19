@@ -1,10 +1,13 @@
+import SupportSection from "@/Components/Home/SupportSection";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <main>
-        <div>hellow</div>
+        <div>
+          <SupportSection />
+        </div>
       </main>
     </>
   );
